@@ -1,5 +1,5 @@
 
-with open("input_day1") as f:
+with open("inputs/day1") as f:
     lines = f.readlines()
 
 count = 0;
