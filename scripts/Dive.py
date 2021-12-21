@@ -1,5 +1,3 @@
-
-
 forwardCount = 0;
 depthCount = 0;
 currentAim = 0;
