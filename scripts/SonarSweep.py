@@ -1,5 +1,6 @@
+import os.path
 
-with open("inputs/day1") as f:
+with open(os.path.dirname(__file__) + '/../inputs/day1') as f:
     lines = f.readlines()
 
 count = 0;

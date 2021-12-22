@@ -1,9 +1,10 @@
+import os.path
+
 forwardCount = 0;
 depthCount = 0;
 currentAim = 0;
 
-with open("inputs/day2") as f:
-    
+with open(os.path.dirname(__file__) + '/../inputs/day2') as f:
     lines = f.readlines()
     
 for line in lines:  
